@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"Sora", sans-serif;
+}
+html{
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background: #F5F5F5;
+}
+body{
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.container{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 40px;
+}
+h1{
+    font-size: 36px;
+}
+.star{
+    background-color: rgb(246, 200, 49);
+    border-radius: 50%;
+    width: 45px;
+    padding: 5px;
+    padding-left: 10px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+}
+.checks{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.check{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.card-1 , .card-2{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 150px;
+    border-radius: 10px;
+    text-align: left;
+    padding: 30px;
+    gap: 20px;
+}
+.card-1{
+    transform: translateX(175px);
+}
+.header-card{
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    width: 100%;    
+    gap: 20px;
+}
+.stars{
+    display: flex;
+    flex-direction: row;
+}
+h3{
+    width: 100%;
+    text-align: left;
+    color: #18181B;
+}
+.card-text{
+   font-family:"Sora", sans-serif;
+}
+@media  screen and (width < 800px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+}
